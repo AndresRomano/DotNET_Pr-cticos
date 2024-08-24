@@ -1,68 +1,56 @@
-﻿using Tarea01.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using System.Globalization;
-using System.Xml.Linq;
+using System.Linq;
+using Tarea01.Models;
 
-namespace Tarea01.Controllers
+namespace YourNamespace.Controllers
 {
+    [Route("api/[controller]")]
     [ApiController]
-    [Route("api/tareas")]
-    public class TareaController : Controller
+    public class TareasController : ControllerBase
     {
-        private readonly ILogger<TareaController> _logger;
-        private IList<Tarea> _tareaList;
-
-        public TareaController(ILogger<TareaController> logger)
+        private static List<Tarea> Tareas = new List<Tarea>
         {
-            _logger = logger;
-            _tareaList = new List<Tarea>
-            {
-                new Tarea { Id = 1, Nombre = "Tarea 1", Descripcion = "Descripción de la tarea 1", DuracionHoras = 2, Responsable = "Juan", Fecha = DateTime.Now },
-                new Tarea { Id = 2, Nombre = "Tarea 2", Descripcion = "Descripción de la tarea 2", DuracionHoras = 4, Responsable = "Ana", Fecha = DateTime.Now },
-                new Tarea { Id = 3, Nombre = "Tarea 3", Descripcion = "Descripción de la tarea 3", DuracionHoras = 1, Responsable = "Luis", Fecha = DateTime.Now }
-            };
-        }
+            new Tarea { Id = 1, Nombre = "Tarea 1", Descripcion = "Descripción de la tarea 1", DuracionHoras = 2, Responsable = "Juan", Fecha = DateTime.Now },
+            new Tarea { Id = 2, Nombre = "Tarea 2", Descripcion = "Descripción de la tarea 2", DuracionHoras = 4, Responsable = "Ana", Fecha = DateTime.Now },
+            new Tarea { Id = 3, Nombre = "Tarea 3", Descripcion = "Descripción de la tarea 3", DuracionHoras = 1, Responsable = "Luis", Fecha = DateTime.Now }
+        };
 
         [HttpGet]
-        public ActionResult<IList<Tarea>> GetAll()
+        public ActionResult<IEnumerable<Tarea>> GetTareas()
         {
-            _logger.LogInformation("Retorno lista de tareas");
-            return Ok(_tareaList.ToList());
+            return Tareas;
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Tarea> GetById(int id)
+        public ActionResult<Tarea> GetTarea(int id)
         {
-            _logger.LogInformation($"Retorno tarea con ID {id}");
-            var tarea = _tareaList.FirstOrDefault(t => t.Id == id);
+            var tarea = Tareas.FirstOrDefault(t => t.Id == id);
             if (tarea == null)
             {
                 return NotFound();
             }
-            return Ok(tarea);
+            return tarea;
         }
 
         [HttpPost]
-        public ActionResult Nuevo([FromBody] Tarea tarea)
+        public ActionResult<Tarea> PostTarea(Tarea tarea)
         {
-            _logger.LogInformation("Nueva tarea añadida");
-            tarea.Id = _tareaList.Count + 1; // Genera un nuevo ID sencillo
-            _tareaList.Add(tarea);
-            return Ok();
+            tarea.Id = Tareas.Count + 1; // Generar un ID sencillo
+            Tareas.Add(tarea);
+            return CreatedAtAction(nameof(GetTarea), new { id = tarea.Id }, tarea);
         }
 
         [HttpDelete("{id}")]
-        public ActionResult Borrar(int id)
+        public IActionResult DeleteTarea(int id)
         {
-            _logger.LogInformation($"Borrar tarea con ID {id}");
-            var tarea = _tareaList.FirstOrDefault(t => t.Id == id);
+            var tarea = Tareas.FirstOrDefault(t => t.Id == id);
             if (tarea == null)
             {
                 return NotFound();
             }
-            _tareaList.Remove(tarea);
-            return Ok();
+            Tareas.Remove(tarea);
+            return NoContent();
         }
     }
 }

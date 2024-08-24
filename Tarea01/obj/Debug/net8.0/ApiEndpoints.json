@@ -1,15 +1,15 @@
 [
   {
-    "ContainingType": "Tarea01.Controllers.TareaController",
-    "Method": "GetAll",
-    "RelativePath": "api/tareas",
+    "ContainingType": "YourNamespace.Controllers.TareasController",
+    "Method": "GetTareas",
+    "RelativePath": "api/Tareas",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IList\u00601[[Tarea01.Models.Tarea, Tarea01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Tarea01.Models.Tarea, Tarea01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -20,9 +20,9 @@
     ]
   },
   {
-    "ContainingType": "Tarea01.Controllers.TareaController",
-    "Method": "Nuevo",
-    "RelativePath": "api/tareas",
+    "ContainingType": "YourNamespace.Controllers.TareasController",
+    "Method": "PostTarea",
+    "RelativePath": "api/Tareas",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -33,12 +33,22 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "Tarea01.Models.Tarea",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
-    "ContainingType": "Tarea01.Controllers.TareaController",
-    "Method": "GetById",
-    "RelativePath": "api/tareas/{id}",
+    "ContainingType": "YourNamespace.Controllers.TareasController",
+    "Method": "GetTarea",
+    "RelativePath": "api/Tareas/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -62,9 +72,9 @@
     ]
   },
   {
-    "ContainingType": "Tarea01.Controllers.TareaController",
-    "Method": "Borrar",
-    "RelativePath": "api/tareas/{id}",
+    "ContainingType": "YourNamespace.Controllers.TareasController",
+    "Method": "DeleteTarea",
+    "RelativePath": "api/Tareas/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

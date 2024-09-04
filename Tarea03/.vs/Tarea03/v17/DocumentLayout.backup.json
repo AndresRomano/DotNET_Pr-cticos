@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\.NET\\source\\repos\\Tarea03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|g:\\.net\\source\\repos\\tarea03\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|g:\\.net\\source\\repos\\tarea03\\views\\libro\\librolist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|solutionrelative:views\\libro\\librolist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|g:\\.net\\source\\repos\\tarea03\\views\\libro\\libroedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|solutionrelative:views\\libro\\libroedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|g:\\.net\\source\\repos\\tarea03\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|solutionrelative:controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|g:\\.net\\source\\repos\\tarea03\\views\\libro\\librodelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|solutionrelative:views\\libro\\librodelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|g:\\.net\\source\\repos\\tarea03\\views\\libro\\librodetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|solutionrelative:views\\libro\\librodetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|g:\\.net\\source\\repos\\tarea03\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|solutionrelative:models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|g:\\.net\\source\\repos\\tarea03\\views\\libro\\librocreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|solutionrelative:views\\libro\\librocreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|g:\\.net\\source\\repos\\tarea03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597A59CE-97EB-4FB0-934B-208031DE3D8F}|Tarea03.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LibroDetails.cshtml",
+              "DocumentMoniker": "G:\\.NET\\source\\repos\\Tarea03\\Views\\Libro\\LibroDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Libro\\LibroDetails.cshtml",
+              "ToolTip": "G:\\.NET\\source\\repos\\Tarea03\\Views\\Libro\\LibroDetails.cshtml",
+              "RelativeToolTip": "Views\\Libro\\LibroDetails.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T13:57:16.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LibroDelete.cshtml",
+              "DocumentMoniker": "G:\\.NET\\source\\repos\\Tarea03\\Views\\Libro\\LibroDelete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Libro\\LibroDelete.cshtml",
+              "ToolTip": "G:\\.NET\\source\\repos\\Tarea03\\Views\\Libro\\LibroDelete.cshtml",
+              "RelativeToolTip": "Views\\Libro\\LibroDelete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T13:56:40.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibroEdit.cshtml",
+              "DocumentMoniker": "G:\\.NET\\source\\repos\\Tarea03\\Views\\Libro\\LibroEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Libro\\LibroEdit.cshtml",
+              "ToolTip": "G:\\.NET\\source\\repos\\Tarea03\\Views\\Libro\\LibroEdit.cshtml",
+              "RelativeToolTip": "Views\\Libro\\LibroEdit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T13:56:01.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LibroCreate.cshtml",
+              "DocumentMoniker": "G:\\.NET\\source\\repos\\Tarea03\\Views\\Libro\\LibroCreate.cshtml",
+              "RelativeDocumentMoniker": "Views\\Libro\\LibroCreate.cshtml",
+              "ToolTip": "G:\\.NET\\source\\repos\\Tarea03\\Views\\Libro\\LibroCreate.cshtml",
+              "RelativeToolTip": "Views\\Libro\\LibroCreate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T13:52:47.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\.NET\\source\\repos\\Tarea03\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "G:\\.NET\\source\\repos\\Tarea03\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T13:49:40.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibroList.cshtml",
+              "DocumentMoniker": "G:\\.NET\\source\\repos\\Tarea03\\Views\\Libro\\LibroList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Libro\\LibroList.cshtml",
+              "ToolTip": "G:\\.NET\\source\\repos\\Tarea03\\Views\\Libro\\LibroList.cshtml",
+              "RelativeToolTip": "Views\\Libro\\LibroList.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDYAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T13:45:01.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\.NET\\source\\repos\\Tarea03\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "G:\\.NET\\source\\repos\\Tarea03\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T13:26:14.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LibroController.cs",
+              "DocumentMoniker": "G:\\.NET\\source\\repos\\Tarea03\\Controllers\\LibroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LibroController.cs",
+              "ToolTip": "G:\\.NET\\source\\repos\\Tarea03\\Controllers\\LibroController.cs",
+              "RelativeToolTip": "Controllers\\LibroController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwEkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T13:17:58.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "G:\\.NET\\source\\repos\\Tarea03\\Models\\Libro.cs",
+              "RelativeDocumentMoniker": "Models\\Libro.cs",
+              "ToolTip": "G:\\.NET\\source\\repos\\Tarea03\\Models\\Libro.cs",
+              "RelativeToolTip": "Models\\Libro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T23:54:46.559Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

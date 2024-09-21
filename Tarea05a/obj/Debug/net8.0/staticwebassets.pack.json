@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\.NET\\source\\repos\\Tarea05a\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "G:\\.NET\\source\\repos\\Tarea05a\\obj\\Debug\\net8.0\\compressed\\qem7j4fwp7.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "G:\\.NET\\source\\repos\\Tarea05a\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Tarea05a.styles.css",
+      "PackagePath": "staticwebassets\\Tarea05a.styles.css"
+    },
+    {
+      "Id": "G:\\.NET\\source\\repos\\Tarea05a\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "G:\\.NET\\source\\repos\\Tarea05a\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\.NET\\source\\repos\\Tarea05a\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\.NET\\source\\repos\\Tarea05a\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "G:\\.NET\\source\\repos\\Tarea05a\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "G:\\.NET\\source\\repos\\Tarea05a\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "G:\\.NET\\source\\repos\\Tarea05a\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Tarea05a.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Tarea05a.props",
+      "PackagePath": "build\\Tarea05a.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Tarea05a.props",
+      "PackagePath": "buildMultiTargeting\\Tarea05a.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Tarea05a.props",
+      "PackagePath": "buildTransitive\\Tarea05a.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
